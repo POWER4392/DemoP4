@@ -3,7 +3,7 @@ using UnityEngine;
 public class Playershot : MonoBehaviour
 {
     public GameObject bulletPrefab; 
-    public float shootingInterval = 100f; // Thời gian giãn cách giữa 2 lần bắn
+    public float shootingInterval = 1f; // Thời gian giãn cách giữa 2 lần bắn
     public float bulletSpeed = 0.3f;       // Tốc độ bay của đạn
     public float bulletLifeTime = 2f;     // Đạn sẽ tự hủy sau bao nhiêu giây?
 
